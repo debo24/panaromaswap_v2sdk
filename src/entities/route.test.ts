@@ -1,4 +1,4 @@
-import { Ether, Token, WETH9, CurrencyAmount } from '@panaromaswap/sdk-core'
+import { Ether, Token, WETH9, CurrencyAmount } from 'panaromaswap_sdkcore'
 import { Pair, Route } from './index'
 
 describe('Route', () => {
