@@ -1,4 +1,4 @@
-import { Token, WETH9, Price, CurrencyAmount } from '@panaromaswap/sdk-core'
+import { Token, WETH9, Price, CurrencyAmount } from 'panaromaswap_sdkcore'
 import { InsufficientInputAmountError } from '../errors'
 import { computePairAddress, Pair } from './pair'
 
