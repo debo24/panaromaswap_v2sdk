@@ -2,7 +2,7 @@ import { Pair } from './pair'
 import { Route } from './route'
 import { Trade } from './trade'
 import JSBI from 'jsbi'
-import { Ether, CurrencyAmount, Percent, Token, TradeType, WETH9, Price } from '@panaromaswap/sdk-core'
+import { Ether, CurrencyAmount, Percent, Token, TradeType, WETH9, Price } from 'panaromaswap_sdkcore'
 
 describe('Trade', () => {
   const ETHER = Ether.onChain(1)
