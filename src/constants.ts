@@ -1,8 +1,11 @@
+import { bytecode } from 'panaromaswap_v2core/build/PanaromaswapV2Pair.json'
+import { keccak256 } from '@ethersproject/solidity'
+
 import JSBI from 'jsbi'
 
 export const FACTORY_ADDRESS = '0x9f13bDf1fbBc63C0578bE156A5f43aeC0eE3f13B'
 
-export const INIT_CODE_HASH = '0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f'
+export const INIT_CODE_HASH = keccak256(['bytes'], [`0x${bytecode}`])
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
