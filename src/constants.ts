@@ -5,7 +5,7 @@ import JSBI from 'jsbi'
 
 export const FACTORY_ADDRESS = '0x9f13bDf1fbBc63C0578bE156A5f43aeC0eE3f13B'
 
-export const INIT_CODE_HASH = keccak256(['bytes'], [`0x${bytecode}`])
+export const INIT_CODE_HASH = '0x40fc8c6d8fc94acf58bf3afda5cf96d3248c41a797461a2c68c7b428df19d94c'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
