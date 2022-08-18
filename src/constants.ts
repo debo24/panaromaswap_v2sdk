@@ -1,6 +1,3 @@
-import { bytecode } from 'panaromaswap_v2core/build/PanaromaswapV2Pair.json'
-import { keccak256 } from '@ethersproject/solidity'
-
 import JSBI from 'jsbi'
 
 export const FACTORY_ADDRESS = '0x9f13bDf1fbBc63C0578bE156A5f43aeC0eE3f13B'
