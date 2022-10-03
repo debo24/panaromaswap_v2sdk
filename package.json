@@ -1,6 +1,6 @@
 {
   "name": "panaromaswap_v2sdk",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "SDK for building applications on Panaromaswap V2",
   "publishConfig": {
     "@debo24": "https://npm.pkg.github.com"
